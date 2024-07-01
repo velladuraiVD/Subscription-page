@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container__h1 {
+    background-color: #F70FE8;
+    display: flex;
+    justify-content: center;
+    margin:20px 50px 20px 50px;
+    padding: 10px;
+    font-weight: 900;
+   
+}
+
+.parent {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.parent__s1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.parent__s1__head {
+    text-align: center;
+}
+.parent__s1__head h1{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.parent__s1__content {
+    margin: 10px;
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 10px;   
+}
+
+.parent__s1__content p {
+    margin: 5px;
+    padding: 5px
+
+}
